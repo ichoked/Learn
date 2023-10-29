@@ -1,0 +1,272 @@
+/* red-hat-text-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/red-hat-text-v14-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* red-hat-text-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Red Hat Text';
+  font-style: italic;
+  font-weight: 400;
+  src: url('fonts/red-hat-text-v14-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* red-hat-text-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/red-hat-text-v14-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* red-hat-text-500italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Red Hat Text';
+  font-style: italic;
+  font-weight: 500;
+  src: url('fonts/red-hat-text-v14-latin-500italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* red-hat-text-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 600;
+  src: url('fonts/red-hat-text-v14-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* red-hat-text-600italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Red Hat Text';
+  font-style: italic;
+  font-weight: 600;
+  src: url('/fonts/red-hat-text-v14-latin-600italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* red-hat-text-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/red-hat-text-v14-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* aleo-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/aleo-v14-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* aleo-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/aleo-v14-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* aleo-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/aleo-v14-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+body {
+  color: #FFF;
+  font-family:'Red Hat Text';
+  font-size: 16px;
+}
+
+/* Header start */
+
+.nav_bg_color {
+  background-color: #F2785CB2;
+  box-shadow: 0px 4px 4px 0px rgba(13, 96, 111, 0.50);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.header_logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header_logo-link {
+  width: 30px;
+  height: 30px;
+}
+
+.brand_name_text {
+  font-family: 'Marga';
+  margin-left: 6px;
+  font-weight: 600;
+  font-size: 32px;
+  color: #FFF;
+}
+
+.wrapper_header {
+  height: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header_list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: space;
+}
+
+.header_items1 {
+  margin-right: 42px;
+}
+
+.header_link {
+  font-size: 16px;
+  line-height: normal;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.header_link:hover, .header_link:focus, .header_link:active {
+  opacity: 40%;
+}
+
+.button_1 {
+  width: 103px;
+  height: 41px;
+  padding: 5px 30px;
+  background: #0D606F;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button_1:hover, .button_1:focus, .button_1:active{
+  background: #0e3b43;
+}
+
+.button1_text {
+  color: #FFF;
+  font-family: 'Red Hat Text';
+  font-size: 16px;
+}
+
+.header {
+  background-image: url(img/montain.jpg) ;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 765px;
+}
+
+/* header end /* 
+
+
+/* preview */
+
+.intro_title {
+  width: 900px;
+  font-family: Aleo;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 10px;
+  line-height: normal;
+}
+
+.intro_sub {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.search-form_field {
+  background: transparent;
+  border: none;
+  margin-left: 10px;
+  font-family: Aleo;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  width: 560px;
+  height: 22px;
+}
+
+.search-form_info {
+  background-color: #FFFFFFB2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 95px;
+  width: 892px;
+  border: 0;
+  border-radius: 20px;
+}
+
+.search-form_field::placeholder{
+  color: #F2785C;
+}
+
+.search-form_submit{
+  padding: 10px 32px;
+  font-family:'Red Hat Text';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  background-color: #0D606F;
+  border-radius: 10px;
+  color: #FFF;
+  border: none;
+  box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.search-form_submit:hover, .search-form_submit:focus, .search-form_submit:active{
+  background: #0e3b43;
+}
+
+/*preview end*/
+
+
+/* main start*/
+
+.steps_tittle{
+  color: #F2785C;
+  font-family:'Red Hat Text';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: center;
+}
+
+/* main end*/
