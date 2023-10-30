@@ -67,25 +67,7 @@
   font-family: 'Aleo';
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/aleo-v14-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* aleo-600 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Aleo';
-  font-style: normal;
-  font-weight: 600;
-  src: url('/fonts/aleo-v14-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* aleo-700 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Aleo';
-  font-style: normal;
-  font-weight: 700;
-  src: url('/fonts/aleo-v14-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url(fonts/aleo-v14-latin-regular.woff2) format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 
@@ -93,6 +75,8 @@ body {
   color: #FFF;
   font-family:'Red Hat Text';
   font-size: 16px;
+  margin: 0px;
+  max-width: 1440px;
 }
 
 /* Header start */
@@ -180,10 +164,9 @@ body {
 
 .header {
   background-image: url(img/montain.jpg) ;
-  top: 0;
-  left: 0;
   width: 1440px;
   height: 765px;
+  margin-bottom: 80px;
 }
 
 /* header end /* 
@@ -238,6 +221,8 @@ body {
 }
 
 .search-form_submit{
+  width: 228px;
+  height: 59px;
   padding: 10px 32px;
   font-family:'Red Hat Text';
   font-size: 24px;
@@ -259,6 +244,25 @@ body {
 
 /* main start*/
 
+/* steps */
+
+.main-section {
+  margin-bottom: 97px;
+}
+
+.steps_wrapper{
+  max-width:
+  margin: 0 auto;
+}
+
+.step-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
 .steps_tittle{
   color: #F2785C;
   font-family:'Red Hat Text';
@@ -266,7 +270,47 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  position: center;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.step-cards{
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  padding: 0 100px;
+}
+
+.step-cards:last-child {
+  margin-left:
+}
+
+.step-card_tittle{
+  color: #0D606F;
+  font-family: Aleo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 auto;
+}
+
+.step-card_pic{
+  margin-bottom: 30px;
+  max-width: 100px;
+}
+
+/* steps */
+
+.destination_tittle {
+  color: #F2785C;
+  font-family:'Red Hat Tex';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
 }
 
 /* main end*/
