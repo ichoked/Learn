@@ -287,9 +287,6 @@ body {
   padding: 0 100px;
 }
 
-.step-cards:last-child {
-  margin-left:
-}
 
 .step-card_tittle{
   color: #0D606F;
@@ -425,6 +422,10 @@ body {
 
 /* stories */
 
+.travel_stories_wrapper{
+  background: rgba(255, 255, 255, 0.70);
+}
+
 .stories_tittle {
   text-align: center;
   color: #F2785C;
@@ -438,25 +439,80 @@ body {
 
 .end_bg {
   background: url(img/end_bg.jpg) no-repeat;
-  height: 1270px;
+  height: 1331px;
 }
 
 .travel_content {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 120px;
+  margin-right: 125px;
+  margin-bottom: 40px;
 }
 
-.img_option {
 
+.travel_content_option  {
+  margin-left: 40px;
 }
 
-.travel_img {
+.travel_card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.travel_card:first-child {
+  margin-top: 40px;
+}
+
+.photo_option {
+  object-fit: cover;
   width: 400px;
   height: 250px;
-  display: flex;
-  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px 0px #0D606F
 }
 
-/* main end*/
+.content_tittle {
+  color: #0D606F;
+  font-family: Aleo;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 24px;
+}
 
+.content_text{
+  color: #0D606F;
+  font-family: Aleo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.read_more_option {
+  color: #0D606F;
+  font-family: Aleo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.button_4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 41px;
+}
+
+
+
+/* main end*/
 
 
