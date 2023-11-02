@@ -424,6 +424,7 @@ body {
 
 .travel_stories_wrapper{
   background: rgba(255, 255, 255, 0.70);
+  padding-bottom: 41px;
 }
 
 .stories_tittle {
@@ -438,8 +439,9 @@ body {
 }
 
 .end_bg {
-  background: url(img/end_bg.jpg) no-repeat;
-  height: 1331px;
+  background: url(img/bg.jpg) no-repeat;
+  background-size: cover;
+  height: 1364px;
 }
 
 .travel_content {
@@ -508,11 +510,36 @@ body {
 .button_4 {
   display: flex;
   justify-content: center;
-  margin-bottom: 41px;
 }
-
-
 
 /* main end*/
 
+/* footer*/
 
+.footer_wrapper {
+  margin-top: -61px;
+  height: 61px;
+}
+
+.lable {
+  display: flex;
+  justify-content: space-between;
+  max-height: 100%;
+}
+
+.footer_lable_text {
+  color: #FFF;
+  font-family:'Red Hat Text';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer_list{
+  list-style: none;
+}
+
+.footer_img{
+  margin-right: 20px;
+}
