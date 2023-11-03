@@ -70,6 +70,27 @@
   src: url(fonts/aleo-v14-latin-regular.woff2) format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+@font-face {
+  font-family:  'Marga';
+  font-style: normal;
+  font-weight:  400;
+  src: url(fonts/Magra-Bold.woff) format('woff')
+}
+  
+@font-face{
+  font-family:  'Marga';
+  font-style: normal;
+  font-weight:  600;
+  src: url(fonts/Magra-Regular.woff)  format('woff')
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Aleo';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/aleo-v14-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
 body {
   color: #FFF;
@@ -106,7 +127,7 @@ body {
 .brand_name_text {
   font-family: 'Marga';
   margin-left: 6px;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 32px;
   color: #FFF;
 }
@@ -194,7 +215,9 @@ body {
   margin-top: 30px;
   margin-bottom: 40px;
   font-size: 20px;
+  font-family: 'Aleo';
   font-style: italic;
+  font-weight: 700px;
 }
 
 .search-form_field {
@@ -203,7 +226,6 @@ body {
   margin-left: 10px;
   font-family: Aleo;
   font-size: 24px;
-  font-style: italic;
   font-weight: 400;
   width: 560px;
   height: 22px;
@@ -247,7 +269,6 @@ body {
 }
 
 /*preview end*/
-
 
 /* main start*/
 
@@ -424,7 +445,7 @@ body {
 
 .travel_stories_wrapper{
   background: rgba(255, 255, 255, 0.70);
-  padding-bottom: 41px;
+  padding-bottom: 57px;
 }
 
 .stories_tittle {
@@ -516,6 +537,10 @@ body {
 
 /* footer*/
 
+.footer_1 {
+  
+}
+
 .footer_wrapper {
   margin-top: -61px;
   height: 61px;
@@ -534,10 +559,14 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-left: 590px;
 }
 
 .footer_list{
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 123px;
 }
 
 .footer_img{
