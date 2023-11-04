@@ -272,7 +272,7 @@ body {
 
 /* main start*/
 
-/* steps */
+/* steps start*/
 
 .steps {
 
@@ -324,10 +324,10 @@ body {
   max-width: 100px;
 }
 
-/* steps */
+/* steps end */
 
 
-/* destinations*/
+/* destinations start*/
 
 
 .destination{
@@ -439,9 +439,9 @@ body {
   margin-left: 10px;
 }
 
-/* destination */
+/* destination end */
 
-/* stories */
+/* stories start */
 
 .travel_stories_wrapper{
   background: rgba(255, 255, 255, 0.70);
@@ -533,6 +533,8 @@ body {
   justify-content: center;
 }
 
+/* stories end*/
+
 /* main end*/
 
 /* footer*/
@@ -572,3 +574,5 @@ body {
 .footer_img{
   margin-right: 20px;
 }
+
+/* footer end */
